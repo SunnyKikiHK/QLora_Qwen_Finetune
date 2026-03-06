@@ -41,6 +41,9 @@ echo "[3/4] Initializing conda..."
 eval "$($HOME/miniconda3/bin/conda shell.bash hook)"
 conda init bash
 
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+
 # Step 4: Create and activate environment
 echo ""
 echo "[4/4] Creating conda environment '$ENV_NAME' with Python $PYTHON_VERSION..."

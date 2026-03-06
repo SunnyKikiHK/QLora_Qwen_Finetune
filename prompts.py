@@ -3,19 +3,19 @@ You are an expert in the field of Named Entity Recognition (NER). You need to ex
 The possible entities are {entities}.
 
 Output in the following JSON format:
-    {
+    {{
         "entity_info": [
-            {
+            {{
                 "entity_text": the_substring_1,
                 "entity_label": the_corresponding_label_1         
-            },
-            {
+            }},
+            {{
                 "entity_text": the_substring_2,
                 "entity_label": the_corresponding_label_2         
-            },
+            }},
             ...
         ]
-    }
+    }}
 
 Notes:
 
